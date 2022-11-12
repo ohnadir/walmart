@@ -1,0 +1,111 @@
+.navContainer{
+    background-color: #0071DC;
+    padding: 24px 25px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.logo h1{
+    font-size: 24px;
+    color: White;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 30px;
+}
+.departments , .services{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    
+    transition: all 0.3s ease;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 6px 6px 6px 12px;
+}
+.inputContainer input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.inputContainer .searchIcon{
+    background-color: #FFC220;
+    color: black;
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 50%;
+    margin-left: 6px;
+    font-weight: normal !important;
+}
+.myItem{
+    width: 100px;
+}
+.myItem, .auth{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.myItem p, .auth p{
+    margin: 0;
+    font-size: 12px;
+}
+.myItem h1, .auth h1{
+    margin: 0;
+    font-weight: 500;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+.cart .icon{
+    font-size: 18px;
+} 
+.cart .item{
+    position: absolute;
+    top: -10px;
+    background-color: #FFC220;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    border: 1px solid black !important;
+    right: -10px;
+}
+.cart span{
+    font-size: 12px;
+}
+.active{
+    background-color: transparent;
+    padding: 8px 5px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.active:hover{
+    background-color: #004F9A;
+}
