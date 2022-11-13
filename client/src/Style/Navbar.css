@@ -1,6 +1,11 @@
 .navContainer{
     background-color: #0071DC;
-    padding: 24px 25px;
+    padding: 16px 25px;
+}
+.menuBtn{
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
 }
 .logo{
     display: flex;
@@ -33,12 +38,15 @@
     align-items: center;
     background-color: white;
     border-radius: 30px;
-    padding: 6px 6px 6px 12px;
+    padding: 4px 6px 4px 12px;
 }
 .inputContainer input{
     border: none;
     outline: none;
     width: 100%;
+}
+.inputContainer input::placeholder{
+    color: #757575;
 }
 .inputContainer .searchIcon{
     background-color: #FFC220;
@@ -109,3 +117,68 @@
 .active:hover{
     background-color: #004F9A;
 }
+.sideNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+    border-right: 1px solid #E3E4E5;
+}
+.sideNav li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: #46474A;
+    padding-bottom: 22px;
+}
+.blind{
+    border-top: 1px solid #E3E4E5;
+    border-bottom: 1px solid #E3E4E5;
+    padding-top: 20px;
+}
+.sideNav button{
+    color: white;
+    font-weight: 500;
+    background-color: #0071DC;
+    padding: 4px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.sideNav .sideNavAuth{
+    border-bottom: 1px solid #E3E4E5;
+}
+.sideNav button:hover{
+    background-color: #004F9A;
+}
+  .sideNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sideNav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sideNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
