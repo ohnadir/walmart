@@ -1,10 +1,17 @@
 import Navbar from "./Component/Shared/Navbar";
+import SubHeader from "./Component/SubHeader";
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <div id="">
+        <Navbar/>
+        <SubHeader/>
+      </div>
+      <div id="">
+        
+      </div>
     </div>
   );
 }
