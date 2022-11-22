@@ -12,3 +12,7 @@
 .feedBackBtn:hover {
     border: 2px solid black ;
 }
+.footerContainer ul li {
+    width: fit-content;
+    font-size: 13px;
+}
