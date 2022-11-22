@@ -10,8 +10,6 @@ function App() {
       <div id="">
         <Navbar/>
         <SubHeader/>
-        <FeedBack/>
-        <Footer/>
       </div>
       <div id="">
         

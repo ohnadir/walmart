@@ -39,7 +39,14 @@
     
 }
 .cardOverlay{
-    height: calc(100% - 127px);
+    position: absolute;
+    left: 0;
+    top: 14.1%;
+    z-index: 1;
+    opacity: 0.4;
+    width: 100%;
+    background-color:#999999;
+    height: calc(100% - 135px);
 }
 .cardItem .addressBtn{
     width: 100%;

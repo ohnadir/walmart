@@ -3,7 +3,7 @@ import '../Style/Footer.css'
 
 const FeedBack = () => {
   return (
-    <div className='flex items-center justify-center py-10 border'>
+    <div className='flex items-center justify-center py-10 border bg-[#E6F1FC]'>
         <div>
             <p>We’d love to hear what you think!</p>
             <div className='flex justify-center mt-3'>

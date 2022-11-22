@@ -34,9 +34,9 @@ const SubHeader = () => {
         </div>
         {
           card && 
-          <div className=''>
+          <div className='mt-[2px]'>
             {
-              card ? <div className=' w-full absolute left-0 z-10 bg-blue-300 cardOverlay'></div> : ""
+              card ? <div className=' cardOverlay'></div> : ""
             }
             <div className='card'>
               <div className='flex items-center justify-center gap-7'>
