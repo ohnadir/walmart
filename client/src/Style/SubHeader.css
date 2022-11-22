@@ -7,10 +7,11 @@
 }
 .card{
     width: 350px;
-    z-index: 2;
+    z-index: 10;
     background-color: #0071DC;
     position: absolute;
-    left: 0;
+    /* top: 5px; */
+    margin-left: -26px;
     padding: 25px;
 }
 .optionItem img{
@@ -36,4 +37,7 @@
     align-items: center;
     gap: 6px;
     
+}
+.cardOverlay{
+    height: calc(100% - 127px);
 }
