@@ -61,6 +61,7 @@ const SubHeader = () => {
                     <p className='m-0 text-xs'>Sacramento, CA 95829</p>
                   </div>
                 </div>
+                <button className='addressBtn'>Add address</button>
               </div>
               <div className='cardItem'>
                 <div className='flex  gap-2'>
