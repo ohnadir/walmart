@@ -1,0 +1,14 @@
+.feedBackBtn{
+    border-radius: 40px;
+    padding: 6px 20px;
+    font-weight: 600;
+    border: 2px solid transparent ;
+    transition: all 0.1s ease;
+    box-sizing: border-box;
+}
+.feedBackBtn{
+    border: 1px solid black ;
+}
+.feedBackBtn:hover {
+    border: 2px solid black ;
+}
