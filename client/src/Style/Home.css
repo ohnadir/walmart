@@ -1,8 +1,8 @@
 .seeTimeBtn{
     font-size: .875rem;
     height: 2rem;
-    width: 6.5rem;
-    padding: 0 0.5rem;
+    min-width: fit-content;
+    padding: 0 8px;
     border-radius: 40px;
     text-align: center;
     border: 1.5px solid transparent;
@@ -34,4 +34,76 @@
     margin: 0;
     text-align: center;
     font-size: 13px;
+}
+.freeShipping{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.freeShipping img{
+    width: 30px;
+}
+.freeShipping p, span{
+    font-size: 14px;
+    min-width: fit-content;
+    font-weight: 600;
+}
+.dealsForDay .fridayBtn{
+    background-color: #FFC220;
+    padding: 4px 5px;
+    font-size: 12px;
+    margin-bottom: 9px;
+    font-family: serif;
+}
+.dealsForDay .optionBtn{
+    background-color: #0071DC;
+    font-weight: 500;
+    padding: 4px 16px;
+    color: white;
+    font-size: 13px;
+    border-radius: 40px;
+    min-width: fit-content;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    transition: all 0.2s ease;
+}
+.dealsForDay .optionBtn:hover{
+    background-color: #004F9A;
+}
+.optionPlate{
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 50% ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+}
+.optionContainer .option1{
+    background-color: black;
+}
+.optionContainer .option2{
+    background-color: #344D67;
+}
+.optionContainer .option3{
+    background-color: #6ECCAF;
+}
+.optionContainer .option4{
+    background-color: #ADE792;
+}
+.optionContainer{
+    width: 32px;
+    height: 32px;
+    border-radius: 50% ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: border 0.1s ease;
+}
+.optionContainer:hover{
+    border: 1px solid #7D7F85;
 }
