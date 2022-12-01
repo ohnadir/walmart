@@ -295,6 +295,43 @@ const Index = () => {
                     </div>
                 </div>
             </section>
+            {/* for you */}
+            <section>
+                <h1 className='my-5 font-semibold'>For you</h1>
+                <div className='flex justify-between gap-8'>
+                    <div className='forCard'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-40b5/k2-_924d4962-ef30-4128-8116-f29696f90e84.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF" alt="" />
+                        <div className='forSubItem'>
+                            <div>
+                                <h1>Cozy home updates</h1>
+                                <p>Save on all you need to create oasis</p>
+                            </div>
+                            <button className='mt-auto'>Shop now</button>
+                        </div>
+                    </div>
+                    <div className='forCard'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-87ff/k2-_8afdc4b6-1992-4f7c-ad12-9438da56366b.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF" alt="" />
+                        <div className='forSubItem'>
+                            <div>
+                                <h1>Power up your fun</h1>
+                                <p>Bumper cars, hoverboards & other awesome wheels</p>
+                            </div>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                    <div className='forCard'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-888b/k2-_f2665d2a-e618-4d67-8b67-9be0a47bbaa8.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF" alt="" />
+                        <div className='forSubItem'>
+                            <div>
+                                <h1>Advent calendars</h1>
+                                <p>Get excited for the holidays & let gifting start early this year.</p>
+                            </div>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </div>
     </div>
   )

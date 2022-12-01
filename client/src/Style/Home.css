@@ -137,3 +137,27 @@
   .next:hover{
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   }
+  
+.forCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid black; */
+}
+.forSubItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.forSubItem p{
+    margin-top: 8px;
+    font-size: 13px;
+}
+.forSubItem button{
+    width: fit-content;
+    padding: 2px 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-weight: 400;
+}
