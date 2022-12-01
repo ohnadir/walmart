@@ -110,7 +110,7 @@
 
 /* slider button Style */
 .prev, .next{
-    top: -18%;
+    top: 0;
     height: 26px;
     width: 26px;
     padding: 0 3px;
@@ -124,7 +124,7 @@
   }
   .prev{
     float: right;
-    right: -75vh;
+    right: 8px;
     /* display: none !important; */
   }
   .prev:hover{
@@ -132,7 +132,7 @@
   }
   .next{
     float: right;
-    right: -80vh;
+    right: 5px;
   }
   .next:hover{
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
@@ -159,5 +159,10 @@
     font-size: 14px;
     border-radius: 12px;
     border: 1px solid black;
-    font-weight: 400;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+.forSubItem button:hover{
+    background-color: black;
+    color: white;
 }

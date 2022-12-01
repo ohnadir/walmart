@@ -1,0 +1,35 @@
+.department img{
+    margin: auto;
+    width: 150px;
+}
+
+/* slider button Style */
+.prev, .next{
+    top: -55px;
+    height: 26px;
+    /* height: 260px; */
+    width: 26px;
+    /* width: 260px; */
+    padding: 0 3px;
+    background-color: #f2f2f2;
+    /* background-color: red; */
+    border-radius: 50%;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1 ;
+    /* display: none !important; */
+    /* transition: visibility 0.2s ease; */
+  }
+  .prev{
+   right: 40px;
+    /* display: none !important; */
+  }
+  .prev:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
+  .next{
+    right: 0;
+  }
+  .next:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }

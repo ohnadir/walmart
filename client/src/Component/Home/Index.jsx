@@ -11,6 +11,7 @@ import member from "../../Assets/wplus-bg-dweb.svg"
 import icon from "../../Assets/wplus-icon-white.svg"
 import {CiHeart} from "react-icons/ci"
 import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
+import Departments from '../Departments';
 
 
 
@@ -46,8 +47,8 @@ const Index = () => {
         dots: false,
         infinite: true,
       speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 4,
+      slidesToScroll: 4,
         prevArrow: <ArrowLeft />,
         nextArrow: <ArrowRight />
     };
@@ -158,7 +159,7 @@ const Index = () => {
             </section>
             <section className='dealsForDay relative'>
                 <h1 className='my-5 font-semibold '>Black Friday</h1>
-                <div className='grid grid-cols-1 sm:grid-cols-5 gap-10 '>
+                <div className='overflow-hidden'>
                     <Slider {...setting}>
                         <div className=' border'>
                             <button className='fridayBtn'>Black Friday Deal</button>
@@ -330,7 +331,12 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
+            </section>
 
+            {/* Departments */}
+            <section className='relative'>
+                
+                <Departments/>
             </section>
         </div>
     </div>
