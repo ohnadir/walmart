@@ -1,0 +1,20 @@
+.mainContainer{
+    height: 50px;
+    background-color: #F2F8FD;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cashBack{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cashBack img{
+    width: 45px;
+}
+.cashBack p, span{
+    font-size: 13px;
+    min-width: fit-content !important;
+}

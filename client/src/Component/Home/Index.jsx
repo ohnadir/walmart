@@ -12,6 +12,7 @@ import icon from "../../Assets/wplus-icon-white.svg"
 import {CiHeart} from "react-icons/ci"
 import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
 import Departments from '../Departments';
+import CashBack from '../CashBack';
 
 
 
@@ -337,6 +338,10 @@ const Index = () => {
             <section className='relative'>
                 
                 <Departments/>
+            </section>
+            {/*  cash back */}
+            <section className='mt-10'>
+                <CashBack/>
             </section>
         </div>
     </div>
