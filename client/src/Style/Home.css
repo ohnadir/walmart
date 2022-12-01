@@ -107,3 +107,33 @@
 .optionContainer:hover{
     border: 1px solid #7D7F85;
 }
+
+/* slider button Style */
+.prev, .next{
+    top: -18%;
+    height: 26px;
+    width: 26px;
+    padding: 0 3px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1 !important;
+    /* display: none !important; */
+    transition: visibility 0.2s ease;
+  }
+  .prev{
+    float: right;
+    right: -75vh;
+    /* display: none !important; */
+  }
+  .prev:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
+  .next{
+    float: right;
+    right: -80vh;
+  }
+  .next:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
