@@ -13,6 +13,7 @@ import {CiHeart} from "react-icons/ci"
 import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
 import Departments from '../Departments';
 import CashBack from '../CashBack';
+import BuildYourCard from '../BuildYourCard';
 
 
 
@@ -340,8 +341,133 @@ const Index = () => {
                 <Departments/>
             </section>
             {/*  cash back */}
-            <section className='mt-10'>
+            <section className='my-10'>
                 <CashBack/>
+            </section>
+            {/* Build your card */}
+            <section>
+                <BuildYourCard/>
+            </section>
+            {/* in season */}
+            <section>
+                <h1 className='my-5 font-semibold'>In Season</h1>
+                <div className='flex justify-between gap-8'>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-5648/k2-_142f6f1c-69cb-4677-aaf0-c578b682303d.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>Baking fun for everyone</h1>
+                                <p>Celebrate the season with exclusives from Great Value.</p>
+                            </div>
+                            <button className='mt-auto'>Shop now</button>
+                        </div>
+                    </div>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-be54/k2-_600298b3-dd1a-42df-b9ef-245c45007e24.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>Prep for Holiday guests</h1>
+                                <p>Save on cozy home updates & hosting must-haves</p>
+                            </div>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* video & home audio */}
+            <section></section>
+
+            {/* New Brand  */}
+            <section>
+                <h1 className='my-5 font-semibold'>In Season</h1>
+                <div className='flex justify-between gap-8'>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-fa8a/k2-_0e91a8e4-bf5c-431d-bd63-b819e59926da.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>Joy-filled foliage</h1>
+                                <p>Get in full cheer with fresh holiday plants.</p>
+                            </div>
+                            <button className='mt-auto'>Shop now</button>
+                        </div>
+                    </div>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-9b7c/k2-_fe7b2bfd-9991-4244-8f34-a51cb97ba12e.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>Nintendo bundle</h1>
+                                <p>Get a 3-month online membership, Joy-Con` & Mario Kart 8`!</p>
+                            </div>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* games and accessories */}
+            <section></section>
+
+            {/* health and wellness */}
+            <section>
+                <h1 className='my-5 font-semibold'>Health & wellness</h1>
+                <div className='flex justify-between gap-8'>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-3432/k2-_12c7e138-42f9-4151-a531-10e8d1a3f5e2.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>At-home COVID-19 tests</h1>
+                                <p>Now available at Walmart</p>
+                            </div>
+                            <button className='mt-auto'>Shop now</button>
+                        </div>
+                    </div>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-f8d6/k2-_7f9ced9d-3ccf-4602-8a79-56f726caea64.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>Vaccines & more</h1>
+                                <p>Protect against the flue, COVID-19, shingles & other illnesses</p>
+                            </div>
+                            <button>Schedule now</button>
+                        </div>
+                    </div>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-d7eb/k2-_feec3339-3120-45bf-9ce7-e1fad1c9eccd.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>Put your health first</h1>
+                                <p>Find medicine, vitamins, first aid & more wellness picks</p>
+                            </div>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* Share value */}
+            <section>
+                <h1 className='my-5 font-semibold'>Sharing our values</h1>
+                <div className='flex justify-between gap-8'>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-cab4/k2-_ea6b8c8c-36da-4fda-95aa-0bf5bf984a81.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>Black and Unlimited</h1>
+                                <p>For who you are & who you want to be. we're here.</p>
+                            </div>
+                            <button className='mt-auto'>Explore more</button>
+                        </div>
+                    </div>
+                    <div className='inSeason'>
+                        <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-f786/k2-_0749f48e-82aa-4d92-8ef2-946673f5f5f8.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF" alt="" />
+                        <div className='inSeasonItem'>
+                            <div>
+                                <h1>Built for better</h1>
+                                <p>Build for Better products with environmental certifications</p>
+                            </div>
+                            <button>Learn more</button>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>

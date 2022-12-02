@@ -14,7 +14,6 @@ const Departments = () => {
         </button>
     );
     const ArrowRight = (props) => (
-        console.log(props),
         <button
             {...props}
             style={{display:props?.currentSlide === 8 ? "none" : "block"}}
@@ -27,7 +26,7 @@ const Departments = () => {
         arrows: true,
         dots: false,
         infinite: false,
-        speed: 500,
+        speed: 300,
         slidesToShow: 7,
         slidesToScroll: 2,
         prevArrow: <ArrowLeft />,

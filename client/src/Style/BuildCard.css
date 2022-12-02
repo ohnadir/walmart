@@ -1,0 +1,62 @@
+.buildCard img{
+    margin: 0 auto !important;
+    width: 120px;
+}
+.heart{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: 12px;
+    right: 8px;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+}
+.buildCard .addBtn{
+    background-color: #0071DC;
+    font-weight: 500;
+    padding: 2px 16px;
+    color: white;
+    font-size: 13px;
+    border-radius: 40px;
+    min-width: fit-content;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.2s ease;
+}
+.buildCard .addBtn:hover{
+    background-color: #004F9A;
+}
+.buildCard .icon{
+    font-size: 16px;
+    font-weight: 900 !important;
+}
+.prev, .next{
+    top: -54px;
+    height: 26px;
+    width: 26px;
+    padding: 0 3px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1 ;
+    border: 1px solid transparent;
+    transition: border 0.2s ease;
+  }
+  .prev{
+    right: 40px;
+  }
+  .prev:hover{
+    border: 1px solid black;
+  }
+  .next{
+    right: 0;
+  }
+  .next:hover{
+    border: 1px solid black;
+  }
