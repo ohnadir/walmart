@@ -9,7 +9,7 @@ const Departments = () => {
         <button
         {...props}
         style={{display:props?.currentSlide === 0 ? "none" : "block"}}
-        className="prev">
+        className="dPrev">
             <BiChevronLeft/>
         </button>
     );
@@ -17,7 +17,7 @@ const Departments = () => {
         <button
             {...props}
             style={{display:props?.currentSlide === 8 ? "none" : "block"}}
-            className="next">
+            className="dNext">
             <BiChevronRight/>
         </button>
     );
@@ -35,13 +35,12 @@ const Departments = () => {
   return (
     <div>
         <div className=''>
-        <h1 className='my-7 font-bold '>Your favorite departments</h1>
         <div className='relative'></div>
             <Slider {...settings}>
                 
                 {
                     departments.map((item)=>
-                        <div className='department px-'>
+                        <div className='department'>
                             <img src={item.img} alt="" />
                             <p className='text-[13px] text-center'>{item?.name}</p>
                         </div>

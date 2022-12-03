@@ -1,0 +1,86 @@
+.dealPrev, .dealNext{
+  top: -48px;
+  height: 26px;
+  width: 26px;
+  padding: 0 3px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  font-size: 20px;
+  position: absolute;
+  z-index: 1 !important;
+  border: 1px solid transparent;
+  transition: border 0.2s ease;
+}
+.dealPrev{
+  right: 40px;
+}
+.dealPrev:hover{
+  border: 1px solid black;
+}
+.dealNext{
+  right: 0;
+}
+.dealNext:hover{
+  border: 1px solid black;
+}
+.dealsForDay {
+  z-index: -2 !important;
+}
+.dealsForDay .fridayBtn{
+    background-color: #FFC220;
+    padding: 4px 5px;
+    font-size: 12px;
+    margin-bottom: 9px;
+    font-family: serif;
+}
+.dealsForDay .optionBtn{
+    background-color: #0071DC;
+    font-weight: 500;
+    padding: 4px 16px;
+    color: white;
+    font-size: 13px;
+    border-radius: 40px;
+    min-width: fit-content;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    transition: all 0.2s ease;
+}
+.dealsForDay .optionBtn:hover{
+    background-color: #004F9A;
+}
+.optionPlate{
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 50% ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+}
+.optionContainer .option1{
+    background-color: black;
+}
+.optionContainer .option2{
+    background-color: #344D67;
+}
+.optionContainer .option3{
+    background-color: #6ECCAF;
+}
+.optionContainer .option4{
+    background-color: #ADE792;
+}
+.optionContainer{
+    width: 32px;
+    height: 32px;
+    border-radius: 50% ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: border 0.1s ease;
+}
+.optionContainer:hover{
+    border: 1px solid #7D7F85;
+}

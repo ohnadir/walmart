@@ -3,12 +3,13 @@
   width: 150px;
 }
 /* slider button Style */
-.prev, .next{
-  top: -55px;
+.dPrev, .dNext{
+  top: -56px;
   height: 26px;
   width: 26px;
   padding: 0 3px;
   background-color: #f2f2f2;
+  /* background-color: red !important; */
   border-radius: 50%;
   font-size: 20px;
   position: absolute;
@@ -16,15 +17,15 @@
   border: 1px solid transparent;
   transition: border 0.2s ease;
 }
-.prev{
+.dPrev{
   right: 40px;
 }
-.prev:hover{
+.dPrev:hover{
   border: 1px solid black;
 }
-.next{
+.dNext{
   right: 0;
 }
-.next:hover{
+.dNext:hover{
   border: 1px solid black;
 }

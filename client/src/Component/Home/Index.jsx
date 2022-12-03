@@ -14,26 +14,12 @@ import { BiChevronRight, BiChevronLeft } from "react-icons/bi";
 import Departments from '../Departments';
 import CashBack from '../CashBack';
 import BuildYourCard from '../BuildYourCard';
+import Deals from '../Deals';
 
 
 
 const Index = () => {
-    const ArrowLeft = (props) => (
-        <button
-            {...props}
-            style={{visibility:props?.currentSlide === 0 ? "hidden" : "visible"}}
-            className="prev">
-            <BiChevronLeft/>
-        </button>
-    );
-    const ArrowRight = (props) => (
-        <button
-            {...props}
-            style={{visibility:props?.currentSlide === 4 ? "hidden" : "visible"}}
-            className="next">
-            <BiChevronRight/>
-        </button>
-    );
+    
     const settings = {
         arrows:false,
         dots: false,
@@ -44,16 +30,7 @@ const Index = () => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
-    const setting = {
-        arrows: true,
-        dots: false,
-        infinite: true,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-        prevArrow: <ArrowLeft />,
-        nextArrow: <ArrowRight />
-    };
+    
   return (
     <div className='bg-[#E6F1FC]'>
         <div className='max-w-7xl mx-auto bg-white p-6'>
@@ -159,122 +136,8 @@ const Index = () => {
                     </div>
                 </div>
             </section>
-            <section className='dealsForDay relative'>
-                <h1 className='my-5 font-semibold '>Black Friday</h1>
-                <div className='overflow-hidden'>
-                    <Slider {...setting}>
-                        <div className=' border'>
-                            <button className='fridayBtn'>Black Friday Deal</button>
-                            <div className='relative w-[160px]'>
-                                <img src="https://i5.walmartimages.com/asr/294e9f0f-e9f6-48fd-a6e8-279af7bc89c0.01014e1068e8953a5dfe81bd9c77d639.jpeg?odnHeight=175&odnWidth=175&odnBg=FFFFFF" alt="" />
-                                <CiHeart className='absolute top-3 right-2 text-2xl' />
-                                <button className='optionBtn'>Options</button>
-                            </div>
-                            <div className='flex justify-between my-2'>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option1'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option2'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option3'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option4'></div>
-                                </div>
-                            </div>
-                        </div> 
-                        <div className=' border'>
-                            <button className='fridayBtn'>Black Friday Deal</button>
-                            <div className='relative w-[160px]'>
-                                <img src="https://i5.walmartimages.com/asr/294e9f0f-e9f6-48fd-a6e8-279af7bc89c0.01014e1068e8953a5dfe81bd9c77d639.jpeg?odnHeight=175&odnWidth=175&odnBg=FFFFFF" alt="" />
-                                <CiHeart className='absolute top-3 right-2 text-2xl' />
-                                <button className='optionBtn'>Options</button>
-                            </div>
-                            <div className='flex justify-between my-2'>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option1'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option2'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option3'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option4'></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className=' border'>
-                            <button className='fridayBtn'>Black Friday Deal</button>
-                            <div className='relative w-[160px]'>
-                                <img src="https://i5.walmartimages.com/asr/294e9f0f-e9f6-48fd-a6e8-279af7bc89c0.01014e1068e8953a5dfe81bd9c77d639.jpeg?odnHeight=175&odnWidth=175&odnBg=FFFFFF" alt="" />
-                                <CiHeart className='absolute top-3 right-2 text-2xl' />
-                                <button className='optionBtn'>Options</button>
-                            </div>
-                            <div className='flex justify-between my-2'>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option1'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option2'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option3'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option4'></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className=' border'>
-                            <button className='fridayBtn'>Black Friday Deal</button>
-                            <div className='relative w-[160px]'>
-                                <img src="https://i5.walmartimages.com/asr/294e9f0f-e9f6-48fd-a6e8-279af7bc89c0.01014e1068e8953a5dfe81bd9c77d639.jpeg?odnHeight=175&odnWidth=175&odnBg=FFFFFF" alt="" />
-                                <CiHeart className='absolute top-3 right-2 text-2xl' />
-                                <button className='optionBtn'>Options</button>
-                            </div>
-                            <div className='flex justify-between my-2'>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option1'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option2'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option3'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option4'></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className=' border'>
-                            <button className='fridayBtn'>Black Friday Deal</button>
-                            <div className='relative w-[160px]'>
-                                <img src="https://i5.walmartimages.com/asr/294e9f0f-e9f6-48fd-a6e8-279af7bc89c0.01014e1068e8953a5dfe81bd9c77d639.jpeg?odnHeight=175&odnWidth=175&odnBg=FFFFFF" alt="" />
-                                <CiHeart className='absolute top-3 right-2 text-2xl' />
-                                <button className='optionBtn'>Options</button>
-                            </div>
-                            <div className='flex justify-between my-2'>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option1'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option2'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option3'></div>
-                                </div>
-                                <div className='optionContainer'>
-                                    <div className='optionPlate option4'></div>
-                                </div>
-                            </div>
-                        </div>
-                    </Slider>
-                </div>
+            <section className='dealsForDay'>
+                <Deals/>
             </section>
             {/* gifting */}
             <section>
@@ -337,7 +200,7 @@ const Index = () => {
 
             {/* Departments */}
             <section className='relative'>
-                
+                <h1 className='my-7 font-bold text-lg border'>Your favorite departments</h1>
                 <Departments/>
             </section>
             {/*  cash back */}
@@ -346,7 +209,8 @@ const Index = () => {
             </section>
             {/* Build your card */}
             <section>
-                <BuildYourCard/>
+                <h1 className='my-7 font-bold text-lg border'>Build your card</h1>
+                <Departments/>
             </section>
             {/* in season */}
             <section>
@@ -375,11 +239,14 @@ const Index = () => {
                 </div>
             </section>
             {/* video & home audio */}
-            <section></section>
+            <section>
+                <h1 className='my-7 font-bold'>Bestselling in toys & games</h1>
+                <Departments/>
+            </section>
 
             {/* New Brand  */}
             <section>
-                <h1 className='my-5 font-semibold'>In Season</h1>
+                <h1 className='my-10 font-semibold'>Brand new for you</h1>
                 <div className='flex justify-between gap-8'>
                     <div className='inSeason'>
                         <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-fa8a/k2-_0e91a8e4-bf5c-431d-bd63-b819e59926da.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF" alt="" />
@@ -405,11 +272,14 @@ const Index = () => {
             </section>
 
             {/* games and accessories */}
-            <section></section>
+            <section>
+                <h1 className='my-7 font-bold text-lg border'>Save on video games & accessories</h1>
+                <Departments/>
+            </section>
 
             {/* health and wellness */}
             <section>
-                <h1 className='my-5 font-semibold'>Health & wellness</h1>
+                <h1 className='my-5 font-bold'>Health & wellness</h1>
                 <div className='flex justify-between gap-8'>
                     <div className='inSeason'>
                         <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-3432/k2-_12c7e138-42f9-4151-a531-10e8d1a3f5e2.v1.jpg?odnHeight=222&odnWidth=395&odnBg=FFFFFF" alt="" />
@@ -445,7 +315,7 @@ const Index = () => {
             </section>
             {/* Share value */}
             <section>
-                <h1 className='my-5 font-semibold'>Sharing our values</h1>
+                <h1 className='my-5 font-bold'>Sharing our values</h1>
                 <div className='flex justify-between gap-8'>
                     <div className='inSeason'>
                         <img src="https://i5.walmartimages.com/dfw/4ff9c6c9-cab4/k2-_ea6b8c8c-36da-4fda-95aa-0bf5bf984a81.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF" alt="" />

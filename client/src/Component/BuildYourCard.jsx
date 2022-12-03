@@ -38,7 +38,7 @@ const BuildYourCard = () => {
             <Slider {...setting}>
                 {
                     departments.map((item)=>
-                        <div className='department border relative'>
+                        <div className='department relative'>
                             <img src={item.img} alt="" />
                             <CiHeart className='heart' />
                             <button className='addBtn'><BiPlus className='icon' /> Add</button>
